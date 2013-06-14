@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <group>
+	<groupHeader>
+	  Dynamic txt
+	</groupHeader>
+	<module>
+	  <moduleHeader>
+		Most Popular News
+	  </moduleHeader>
+	  <moduleBody>
+		<item>
+		  <title>
+			Price of stealing a married man? $10m
+		  </title>
+		  <url>
+			#1
+		  </url>
+		</item>
+		<item>
+		  <title>
+			Girl forced to sleep with 100 men
+		  </title>
+		  <url>
+			#2
+		  </url>
+		</item>
+		<item>
+		  <title>
+			Teenager fired from job via Facebook
+		  </title>
+		  <url>
+			#3
+		  </url>
+		</item>
+		<item>
+		  <title>
+			I wasn't the only vistim - Hey Da! star
+		  </title>
+		  <url>
+			#4
+		  </url>
+		</item>
+		<item>
+		  <title>
+			Suicide voyer nurse linked to web deaths
+		  </title>
+		  <url>
+			#5
+		  </url>
+		</item>
+		<item>
+		  <title>
+			Google shuts down censored Chinese site
+		  </title>
+		  <url>
+			#6
+		  </url>
+		</item>
+		<item>
+		  <title>
+			Things to know about plane crash
+		  </title>
+		  <url>
+			#7
+		  </url>
+		</item>
+		<item>
+		  <title>
+			Traffic feares follow worst storm in 50 years
+		  </title>
+		  <url>
+			#8
+		  </url>
+		</item>
+		<item>
+		  <title>
+			Australia to Europe in three hours
+		  </title>
+		  <url>
+			#9
+		  </url>
+		</item>
+		<item>
+		  <title>
+			Dubai bans cooking with alcohol
+		  </title>
+		  <url>
+			#10
+		  </url>
+		</item>
+	  </moduleBody>
+	</module>
+  </group>

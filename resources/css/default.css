@@ -1,0 +1,222 @@
+/*	................................................................
+		author: 		Aleem Latif
+ 		description: 	CSS styles for News Feed Reader - demo page 		
+.................................................................. */
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 25%;
+}
+/**
+* Consolidate styles on HTML elements for all browsers
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.5em;
+}
+a,
+a:visited,
+a:focus,
+a:active {
+	color:#3A6899;
+	text-decoration:none;
+}
+a:hover {
+	color:#3A6899;
+	text-decoration: underline;
+}
+a img {
+	border: 0;
+}
+p {
+	line-height: 1.5em;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-size: 1em;
+	line-height: 1em;
+	font-weight: bold;
+}
+/*	define class & ids specific rules	*/
+#page-container {
+	position: relative;
+	min-height: 100%;/* ensures that the footer appears at the bottom of the page */
+	margin: 0 auto;
+}
+/* page header */
+.header-wrapper {
+	width:100%;
+	position:relative;
+}
+.header-wrapper .page-header {
+	margin:auto;
+	width:80%;
+	height:3.625em;
+	border: 1px solid #999999;
+}
+.header-wrapper .page-header h1 {
+	padding:1.3em;
+}
+#body-wrapper {
+	padding:1.25em 0 2.077em;
+	position:relative;
+	width:100%;
+}
+/* page contents */
+#body-wrapper #page-body {
+	margin: 0 auto;
+	width:80%;
+}
+#page-body .group {	
+	margin:0 auto;
+}
+#page-body .group.large {
+	width: 650px;	
+}
+#page-body .group.small {
+	width: 323px;	
+}
+.group .group-header {	
+	cursor:move;
+	margin:0;
+	padding:0 0 2px 0;
+	width:100%;
+	height:25px;
+	line-height: 25px;
+	position:relative;
+	display:block;
+	border-bottom: 1px solid #ECF1F6;
+}
+#page-body .group.large .group-header {
+	background:transparent url(../images/sprites.gif) no-repeat scroll 0 0;
+}
+#page-body .group.small .group-header {
+	background:transparent url(../images/sprites.gif) no-repeat scroll 0 -48px;
+}
+.group .group-header .header {
+	background: url(../images/fill.gif) repeat-x scroll 0 0;	
+	color:#FFFFFF;
+	font-size: 0.9em;
+	font-weight:800;
+	line-height:17px;
+	height:17px;
+	width:auto;		
+	display:inline;
+	float:left;	
+	position:relative;
+	margin: 6px 0 0;
+	padding: 0 10px 0 4px;	
+}
+.group .group-header span{
+	background:transparent url(../images/sprites.gif) no-repeat scroll -5px -28px;	
+	width:2px;
+	height:17px;
+	line-height:17px;
+	margin: 6px 0 0 0;
+	display:inline;
+	float:left;		
+	position: relative;		
+}
+.group .group-body {
+	width: 648px;
+	border:1px solid #B4B4B3;
+	margin-top:3px;
+}
+.group.small .group-body {
+	width: auto;	
+}
+.group .module {
+	padding: 5px;
+	background:#FFFFFF none repeat scroll 0 0;
+}
+.module .module-header h3 {
+	margin-bottom:6px;
+	margin-left:4px;
+	margin-top:4px;
+	white-space:nowrap;
+	font-size: 1.1em;
+	font-weight:900;
+	letter-spacing: -0.04em;
+}
+.module .module-body ol {
+	list-style: decimal url(none) inside;
+	font-size:0.9em;
+}
+.module .module-body ol li {
+	margin: 0.3em;
+	list-style: decimal url(none) inside;
+	margin: 0 0.5em;
+	line-height: 1.5em;
+	color: #666666;
+}
+.group .group-body .col-1 {
+	width:324px;
+	float: left;
+	position:relative;
+}
+.group.small .group-body .col-1 {
+	width:auto;	
+}
+.group .group-body .col-2 {
+	float: left;
+	position:relative;
+}
+.group .group-footer p.more-link {
+	float:right;
+	font-size: 0.9em;
+}
+.group .group-footer p.more-link a {
+	background: url(../images/sprites.gif) no-repeat scroll 33px -75px transparent;
+	color: #000000;
+	font-weight: normal;
+	padding-right: 13px;
+	text-align: right;
+}
+/* page footer */
+#footer-wrapper {
+	left:0;
+	bottom:0;
+	position:absolute;
+	width:100%;
+	border-top: 1px solid #999999;
+	text-align:center;
+}
+.page-footer {
+	margin:auto;
+	width:80%;
+	color:#333333;
+	font-weight:normal;
+	font-size: 0.9em;
+}
+/**
+* clearfix as explained in http://www.positioniseverything.net/easyclearing.html
+*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* hides from ie-mac \*/
+
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
